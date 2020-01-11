@@ -1,0 +1,62 @@
+html{
+  height: 100%;
+}
+#index-container{
+padding-top: 5%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+}
+
+.main_screen{
+  background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.8)),url('static_images/sea_creature.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 5em;
+}
+
+#inJumbo{
+  background-color: rgba(0,0,0,0.5)
+}
+
+#main_text{
+  opacity: 1;
+  color:white;
+}
+
+img {
+  border: 5px solid #ddd; /* Gray border */
+  border-radius: 200px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 400px; /* Set a small width */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  -webkit-transition-duration: 0.8s; /* Safari */
+  transition-duration: 0.8s;
+  font-size: 2em;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #e0a709; /* Green */
+  color: white;
+  font-size: 2.5em;
+
+}
+
+a:hover{
+  color: #e0a709 !important;
+}

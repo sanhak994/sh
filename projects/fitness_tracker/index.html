@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Dojo</title>
+    <!-- Compiled and minified CSS for materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body class='grey darken-4'>
+    <div class="nav z-depth-0">
+      <div class="section center">
+        <h3 class='white-text center'>- The Dojo -</h3>
+      </div>
+    </div>
+
+    <div class="section center">
+      <p class='grey-text flow-text'>A fitness tracker for ninjas</p>
+    </div>
+
+    <div class="container section">
+      <div class="row">
+        <div class="col s12 l5">
+          <!-- In JS we'll use data-activity to determine what we've clicked on -->
+          <br><br>
+          <button class='active waves-effect waves-light btn-large' data-activity = 'cycling'>Cycling</button>
+          <button class='waves-effect waves-light btn-large' data-activity = 'running'>Running</button>
+          <button class='waves-effect waves-light btn-large' data-activity = 'swimming'>Swimming</button>
+          <button class='waves-effect waves-light btn-large' data-activity = 'walking'>Walking</button>
+        </div>
+        <div class="col s12 l6 push-l1">
+          <div class="canvas"></div>
+        </div>
+      </div>
+      <div class="row">
+        <form class="col m6 push-m3">
+          <!-- Item inside span tag will dynamically change -->
+          <p class = 'flow-text grey-text center'>How much <span>cycling</span> have you done today?</p>
+          <!-- clicking on a button will change the id to the respective button -->
+          <input type="text" class="grey-text" id="cycling" placeholder="Distance in meters">
+          <p class='center pink-text text-lighten-1 error'></p>
+        </form>
+
+      </div>
+    </div>
+
+
+  </body>
+
+  <!-- Compiled and minified JavaScript for materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+
+  <!-- I added this in: Do not need to load full firebase, just need the firestore database things -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#config-web-app -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAPskhbPu9SImEWmjQL--TULeWWLV00Sr8",
+      authDomain: "udemy-d3-firebase-d2081.firebaseapp.com",
+      databaseURL: "https://udemy-d3-firebase-d2081.firebaseio.com",
+      projectId: "udemy-d3-firebase-d2081",
+      storageBucket: "udemy-d3-firebase-d2081.appspot.com",
+      messagingSenderId: "480634866441",
+      appId: "1:480634866441:web:c0ab00e41998863e"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    // I added this in:
+    const db = firebase.firestore(); // Initialized firestore and set a ref to call later in different js files
+
+
+  </script>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script src='index.js' type="text/javascript"></script>
+  <script src='graph.js' type="text/javascript"></script>
+</html>
