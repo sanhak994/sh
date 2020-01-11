@@ -1,2 +1,0 @@
-# sh
-personal_site
