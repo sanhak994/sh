@@ -26,6 +26,9 @@ body{
   transition-duration: 0.4s;
   font-size: 1em;
   border-radius: 10px;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 15px;
 }
 
 .button:hover {
@@ -39,6 +42,7 @@ a:hover{
 
 .card{
   margin: 20px;
+  padding-bottom: 30px;
 }
 
 iframe{
