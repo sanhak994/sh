@@ -46,7 +46,7 @@ img {
   background-size: 500%;
   color: white;
   opacity: 0.5;
-  -webkit-transition-duration: 0.8s; /* Safari */
+  -webkit-transition-duration: 1s; /* Safari */
   transition-duration: 0.8s;
   font-size: 2em;
   border: 0px solid white;

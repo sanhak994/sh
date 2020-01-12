@@ -37,8 +37,8 @@ body{
   background-color: rgba(0,0,0,0);
   color: white;
   opacity: 0.5;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 0.8s;
   font-size: 1em;
   border-radius: 5px;
   border: 0px solid white;
