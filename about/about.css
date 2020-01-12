@@ -61,6 +61,7 @@ a:hover{
   margin: auto;
   border: 5px solid white;
   border-radius: 15px;
+  max-width: 100%
 }
 
 #ps{

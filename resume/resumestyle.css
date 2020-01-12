@@ -34,18 +34,27 @@ body{
 }
 
 .button {
-  background-color: black;
+  background: black;
+  background-size: 500%;
   color: white;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  opacity: 0.5;
+  -webkit-transition-duration: 0.8s; /* Safari */
+  transition-duration: 0.8s;
   font-size: 2em;
-  border-radius: 10px;
+  border: 0px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  z-index: 1;
 }
 
 .button:hover {
-  background-color: #e0a709; /* Green */
-  color: white;
-}
+  opacity: 1;
+  color: #e0a709;
+  font-size: 2.5em;
+  box-shadow: 0 0 5px #752323,
+              0 0 25px #752323,
+              0 0 50px #752323,
+              0 0 100px #752323;
 
 a:hover{
   color: #e0a709 !important;
