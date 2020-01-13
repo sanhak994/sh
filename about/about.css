@@ -55,13 +55,28 @@ a:hover{
   width: 40px;
 }
 
+.img-hover-zoom{
+  overflow: hidden;
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 15px;
+}
 #cat{
   width: 500px;
   display: block;
   margin: auto;
-  border: 5px solid white;
   border-radius: 15px;
-  max-width: 100%
+  max-width: 100%;
+  transform-origin: 70% 38%;
+  transition: transform 1s, filter .5s ease-out;
+  transform: scale(1.02);
+
+}
+#cat:hover {
+  transition: transform 15s, filter .5s ease-out;
+  transform: scale(5);
 }
 
 #ps{
