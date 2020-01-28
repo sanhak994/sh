@@ -9129,15 +9129,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box
+/* This file is a compatability layer.  It allows the usage of flexible box 
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this
+`Modern browsers` comments below).  Browsers that are known to implement this 
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+
+    Internet Explorer 11+ 
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12519,7 +12519,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for
+  /* This injects handle bars (a short, wide = symbol) for 
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13018,7 +13018,7 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-
+    
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -13072,14 +13072,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  }
-  div.output_wrapper {
+  } 
+  div.output_wrapper { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
-  div.output {
+  div.output { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
 }
 </style>
@@ -13117,7 +13117,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Using-Machine-Learning-to-generate-raps">Using Machine Learning to generate raps<a class="anchor-link" href="#Using-Machine-Learning-to-generate-raps">&#182;</a></h1><p>The goal of this project is to use a dataset with a variety of artists, filter out all the rappers, and create a corpus of their music. Then using Tensorflow I will build a neural net that will create new raps.</p>
-<h4 id="Warning:-Obviously-a-lot-of-rappers-use-explicit-language.-If-you-are-not-comfortable-with-that-then-do-not-continue">Warning: Obviously a lot of rappers use explicit language. If you are not comfortable with that then do not continue<a class="anchor-link" href="#Warning:-Obviously-a-lot-of-rappers-use-explicit-language.-If-you-are-not-comfortable-with-that-then-do-not-continue">&#182;</a></h4><p>Overall, the principles of this can be applied to a variety of text applications. In this case I am simply using the predict feature of my model to generate new raps, but it could also be used for missing word imputation. In other words, the principle can be expanded out to predictive text, where the seed is the user's sentence or word and using a model, the next word or next full sentence is predicted.</p>
+<h4 id="Warning:-Obviously-a-lot-of-rappers-use-explicit-language.-If-you-are-not-comfortable-with-that-then-do-not-continue">Warning: Obviously a lot of rappers use explicit language. If you are not comfortable with that then do not continue<a class="anchor-link" href="#Warning:-Obviously-a-lot-of-rappers-use-explicit-language.-If-you-are-not-comfortable-with-that-then-do-not-continue">&#182;</a></h4><p>Overall, the principles of this can be applied to a variety of text applications. In this case I am simply using the predict feature of my model to generate new raps, but it could also be used for missing word imputation. In otherwords, the principle can be expanded out to predictive text, where the seed is the user's sentence or word and based on a model, the next word or next full sentence is predicted.</p>
 
 </div>
 </div>
@@ -13137,7 +13137,7 @@ div#notebook {
     display: flex;
     align-items: center;
     text-align: center;
-
+    
 }
 div.output_subarea{
     max-width:1200px;
@@ -13242,7 +13242,7 @@ padding: 5em 5em 0.5em 0.5em
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="There-are-a-lot-of-artists,-but-I-will-broadly-filter-out-all-rappers-that-I-know.">There are a lot of artists, but I will broadly filter out all rappers that I know.<a class="anchor-link" href="#There-are-a-lot-of-artists,-but-I-will-broadly-filter-out-all-rappers-that-I-know.">&#182;</a></h3>
+<h3 id="There-are-a-643-artists,-but-I-will-broadly-filter-out-all-rappers-that-I-know.">There are a 643 artists, but I will broadly filter out all rappers that I know.<a class="anchor-link" href="#There-are-a-643-artists,-but-I-will-broadly-filter-out-all-rappers-that-I-know.">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13256,162 +13256,7 @@ padding: 5em 5em 0.5em 0.5em
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([&#39;ABBA&#39;, &#39;Ace Of Base&#39;, &#39;Adam Sandler&#39;, &#39;Adele&#39;, &#39;Aerosmith&#39;,
-       &#39;Air Supply&#39;, &#39;Aiza Seguerra&#39;, &#39;Alabama&#39;, &#39;Alan Parsons Project&#39;,
-       &#39;Aled Jones&#39;, &#39;Alice Cooper&#39;, &#39;Alice In Chains&#39;, &#39;Alison Krauss&#39;,
-       &#39;Allman Brothers Band&#39;, &#39;Alphaville&#39;, &#39;America&#39;, &#39;Amy Grant&#39;,
-       &#39;Andrea Bocelli&#39;, &#39;Andy Williams&#39;, &#39;Annie&#39;, &#39;Ariana Grande&#39;,
-       &#39;Ariel Rivera&#39;, &#39;Arlo Guthrie&#39;, &#39;Arrogant Worms&#39;, &#39;Avril Lavigne&#39;,
-       &#39;Backstreet Boys&#39;, &#39;Barbie&#39;, &#39;Barbra Streisand&#39;, &#39;Beach Boys&#39;,
-       &#39;The Beatles&#39;, &#39;Beautiful South&#39;, &#39;Beauty And The Beast&#39;,
-       &#39;Bee Gees&#39;, &#39;Bette Midler&#39;, &#39;Bill Withers&#39;, &#39;Billie Holiday&#39;,
-       &#39;Billy Joel&#39;, &#39;Bing Crosby&#39;, &#39;Black Sabbath&#39;, &#39;Blur&#39;, &#39;Bob Dylan&#39;,
-       &#39;Bob Marley&#39;, &#39;Bob Rivers&#39;, &#39;Bob Seger&#39;, &#39;Bon Jovi&#39;, &#39;Boney M.&#39;,
-       &#39;Bonnie Raitt&#39;, &#39;Bosson&#39;, &#39;Bread&#39;, &#39;Britney Spears&#39;,
-       &#39;Bruce Springsteen&#39;, &#39;Bruno Mars&#39;, &#39;Bryan White&#39;, &#39;Cake&#39;,
-       &#39;Carly Simon&#39;, &#39;Carol Banawa&#39;, &#39;Carpenters&#39;, &#39;Cat Stevens&#39;,
-       &#39;Celine Dion&#39;, &#39;Chaka Khan&#39;, &#39;Cheap Trick&#39;, &#39;Cher&#39;, &#39;Chicago&#39;,
-       &#39;Children&#39;, &#39;Chris Brown&#39;, &#39;Chris Rea&#39;, &#39;Christina Aguilera&#39;,
-       &#39;Christina Perri&#39;, &#39;Christmas Songs&#39;, &#39;Christy Moore&#39;,
-       &#39;Chuck Berry&#39;, &#39;Cinderella&#39;, &#39;Clash&#39;, &#39;Cliff Richard&#39;, &#39;Coldplay&#39;,
-       &#39;Cole Porter&#39;, &#39;Conway Twitty&#39;, &#39;Counting Crows&#39;,
-       &#39;Creedence Clearwater Revival&#39;, &#39;Crowded House&#39;, &#39;Culture Club&#39;,
-       &#39;Cyndi Lauper&#39;, &#39;Dan Fogelberg&#39;, &#39;Dave Matthews Band&#39;,
-       &#39;David Allan Coe&#39;, &#39;David Bowie&#39;, &#39;David Guetta&#39;, &#39;David Pomeranz&#39;,
-       &#39;Dean Martin&#39;, &#39;Death&#39;, &#39;Deep Purple&#39;, &#39;Def Leppard&#39;,
-       &#39;Demi Lovato&#39;, &#39;Depeche Mode&#39;, &#39;Devo&#39;, &#39;Dewa 19&#39;, &#39;Diana Ross&#39;,
-       &#39;Dire Straits&#39;, &#39;Divine&#39;, &#39;Dolly Parton&#39;, &#39;Don Henley&#39;,
-       &#39;Don McLean&#39;, &#39;Don Moen&#39;, &#39;Donna Summer&#39;, &#39;Doobie Brothers&#39;,
-       &#39;Doors&#39;, &#39;Doris Day&#39;, &#39;Drake&#39;, &#39;Dream Theater&#39;,
-       &#39;Dusty Springfield&#39;, &#39;Eagles&#39;, &#39;Ed Sheeran&#39;, &#39;Eddie Cochran&#39;,
-       &#39;Electric Light Orchestra&#39;, &#39;Ella Fitzgerald&#39;, &#39;Ellie Goulding&#39;,
-       &#39;Elton John&#39;, &#39;Elvis Costello&#39;, &#39;Elvis Presley&#39;, &#39;Eminem&#39;,
-       &#39;Emmylou Harris&#39;, &#39;Engelbert Humperdinck&#39;, &#39;Enigma&#39;,
-       &#39;Enrique Iglesias&#39;, &#39;Enya&#39;, &#39;Eppu Normaali&#39;, &#39;Erasure&#39;,
-       &#39;Eric Clapton&#39;, &#39;Erik Santos&#39;, &#39;Etta James&#39;, &#39;Europe&#39;,
-       &#39;Eurythmics&#39;, &#39;Evanescence&#39;, &#39;Everclear&#39;, &#39;Everlast&#39;, &#39;Exo&#39;,
-       &#39;Exo-K&#39;, &#39;Extreme&#39;, &#39;Fabolous&#39;, &#39;Face To Face&#39;, &#39;Faces&#39;,
-       &#39;Faith Hill&#39;, &#39;Faith No More&#39;, &#39;Falco&#39;, &#39;Fall Out Boy&#39;, &#39;Fastball&#39;,
-       &#39;Fatboy Slim&#39;, &#39;Fifth Harmony&#39;, &#39;Fiona Apple&#39;, &#39;Fleetwood Mac&#39;,
-       &#39;Flo-Rida&#39;, &#39;Foo Fighters&#39;, &#39;Foreigner&#39;, &#39;Frank Sinatra&#39;,
-       &#39;Frank Zappa&#39;, &#39;Frankie Goes To Hollywood&#39;, &#39;Frankie Laine&#39;,
-       &#39;Frankie Valli&#39;, &#39;Freddie Aguilar&#39;, &#39;Freddie King&#39;, &#39;Free&#39;,
-       &#39;Freestyle&#39;, &#39;Fun.&#39;, &#39;Garth Brooks&#39;, &#39;Gary Numan&#39;,
-       &#39;Gary Valenciano&#39;, &#39;Genesis&#39;, &#39;George Formby&#39;, &#39;George Harrison&#39;,
-       &#39;George Jones&#39;, &#39;George Michael&#39;, &#39;George Strait&#39;, &#39;Gino Vannelli&#39;,
-       &#39;Gipsy Kings&#39;, &#39;Glee&#39;, &#39;Glen Campbell&#39;, &#39;Gloria Estefan&#39;,
-       &#39;Gloria Gaynor&#39;, &#39;GMB&#39;, &#39;Gordon Lightfoot&#39;, &#39;Grand Funk Railroad&#39;,
-       &#39;Grateful Dead&#39;, &#39;Grease&#39;, &#39;Great Big Sea&#39;, &#39;Green Day&#39;,
-       &#39;Gucci Mane&#39;, &#39;Guided By Voices&#39;, &#34;Guns N&#39; Roses&#34;, &#39;Halloween&#39;,
-       &#39;Hank Snow&#39;, &#39;Hank Williams&#39;, &#39;Hank Williams Jr.&#39;, &#39;Hanson&#39;,
-       &#39;Happy Mondays&#39;, &#39;Harry Belafonte&#39;, &#39;Harry Connick, Jr.&#39;, &#39;Heart&#39;,
-       &#39;Helloween&#39;, &#39;High School Musical&#39;, &#39;Hillsong&#39;, &#39;Hillsong United&#39;,
-       &#39;HIM&#39;, &#39;Hollies&#39;, &#39;Hooverphonic&#39;, &#39;Horrible Histories&#39;,
-       &#39;Housemartins&#39;, &#39;Howard Jones&#39;, &#39;Human League&#39;, &#39;Ian Hunter&#39;,
-       &#39;Ice Cube&#39;, &#39;Idina Menzel&#39;, &#39;Iggy Pop&#39;, &#39;Il Divo&#39;,
-       &#39;Imagine Dragons&#39;, &#39;Imago&#39;, &#39;Imperials&#39;, &#39;Incognito&#39;, &#39;Incubus&#39;,
-       &#39;Independence Day&#39;, &#39;Indiana Bible College&#39;, &#39;Indigo Girls&#39;,
-       &#39;Ingrid Michaelson&#39;, &#39;Inna&#39;, &#39;Insane Clown Posse&#39;, &#39;Inside Out&#39;,
-       &#39;INXS&#39;, &#39;Iron Butterfly&#39;, &#39;Iron Maiden&#39;, &#39;Irving Berlin&#39;,
-       &#39;Isley Brothers&#39;, &#39;Israel&#39;, &#39;Israel Houghton&#39;, &#39;Iwan Fals&#39;,
-       &#39;J Cole&#39;, &#39;Jackson Browne&#39;, &#39;The Jam&#39;, &#39;James Taylor&#39;,
-       &#39;Janis Joplin&#39;, &#39;Jason Mraz&#39;, &#39;Jennifer Lopez&#39;, &#39;Jim Croce&#39;,
-       &#39;Jimi Hendrix&#39;, &#39;Jimmy Buffett&#39;, &#39;John Denver&#39;, &#39;John Legend&#39;,
-       &#39;John Martyn&#39;, &#39;John McDermott&#39;, &#39;John Mellencamp&#39;, &#39;John Prine&#39;,
-       &#39;John Waite&#39;, &#39;Johnny Cash&#39;, &#39;Joni Mitchell&#39;, &#39;Jose Mari Chan&#39;,
-       &#39;Josh Groban&#39;, &#39;Journey&#39;, &#39;Joy Division&#39;, &#39;Judas Priest&#39;, &#39;Judds&#39;,
-       &#39;Judy Garland&#39;, &#39;Justin Bieber&#39;, &#39;Justin Timberlake&#39;, &#39;Kanye West&#39;,
-       &#39;Kari Jobe&#39;, &#39;Kate Bush&#39;, &#39;Katy Perry&#39;, &#39;Keith Green&#39;,
-       &#39;Keith Urban&#39;, &#39;Kelly Clarkson&#39;, &#39;Kelly Family&#39;, &#39;Kenny Chesney&#39;,
-       &#39;Kenny Loggins&#39;, &#39;Kenny Rogers&#39;, &#39;Kid Rock&#39;, &#39;The Killers&#39;,
-       &#39;Kim Wilde&#39;, &#39;King Crimson&#39;, &#39;King Diamond&#39;, &#39;Kinks&#39;,
-       &#39;Kirk Franklin&#39;, &#39;Kirsty Maccoll&#39;, &#39;Kiss&#39;, &#39;Koes Plus&#39;, &#39;Korn&#39;,
-       &#39;Kris Kristofferson&#39;, &#39;Kyla&#39;, &#39;Kylie Minogue&#39;, &#39;Lady Gaga&#39;,
-       &#39;Lana Del Rey&#39;, &#39;Lata Mangeshkar&#39;, &#39;Lauryn Hill&#39;, &#39;Lea Salonga&#39;,
-       &#39;Leann Rimes&#39;, &#39;Lenny Kravitz&#39;, &#39;Leo Sayer&#39;, &#39;Leonard Cohen&#39;,
-       &#39;Les Miserables&#39;, &#39;Lil Wayne&#39;, &#39;Linda Ronstadt&#39;, &#39;Linkin Park&#39;,
-       &#39;Lionel Richie&#39;, &#39;Little Mix&#39;, &#39;Little Walter&#39;, &#39;LL Cool J&#39;,
-       &#39;Lloyd Cole&#39;, &#39;Lorde&#39;, &#39;Loretta Lynn&#39;, &#39;Lou Reed&#39;,
-       &#39;Louis Armstrong&#39;, &#39;Louis Jordan&#39;, &#39;Lucky Dube&#39;, &#39;Luther Vandross&#39;,
-       &#39;Lynyrd Skynyrd&#39;, &#39;Madonna&#39;, &#39;Manowar&#39;, &#39;Mariah Carey&#39;,
-       &#39;Marianne Faithfull&#39;, &#39;Marillion&#39;, &#39;Marilyn Manson&#39;, &#39;Mark Ronson&#39;,
-       &#39;Maroon 5&#39;, &#39;Mary Black&#39;, &#39;Matt Monro&#39;, &#39;Matt Redman&#39;,
-       &#39;Mazzy Star&#39;, &#39;Mc Hammer&#39;, &#39;Meat Loaf&#39;, &#39;Megadeth&#39;, &#39;Men At Work&#39;,
-       &#39;Metallica&#39;, &#39;Michael Bolton&#39;, &#39;Michael Buble&#39;, &#39;Michael Jackson&#39;,
-       &#39;Michael W. Smith&#39;, &#39;Migos&#39;, &#39;Miley Cyrus&#39;, &#39;Misfits&#39;,
-       &#39;Modern Talking&#39;, &#39;The Monkees&#39;, &#39;Moody Blues&#39;, &#39;Morrissey&#39;, &#39;Mud&#39;,
-       &#34;&#39;n Sync&#34;, &#39;Nat King Cole&#39;, &#39;Natalie Cole&#39;, &#39;Natalie Grant&#39;,
-       &#39;Natalie Imbruglia&#39;, &#39;Nazareth&#39;, &#39;Ne-Yo&#39;, &#39;Neil Diamond&#39;,
-       &#39;Neil Sedaka&#39;, &#39;Neil Young&#39;, &#39;New Order&#39;, &#39;Next To Normal&#39;,
-       &#39;Nick Cave&#39;, &#39;Nick Drake&#39;, &#39;Nickelback&#39;, &#39;Nicki Minaj&#39;,
-       &#39;Nightwish&#39;, &#39;Nina Simone&#39;, &#39;Nine Inch Nails&#39;, &#39;Nirvana&#39;,
-       &#39;Nitty Gritty Dirt Band&#39;, &#39;Noa&#39;, &#39;NOFX&#39;, &#39;Norah Jones&#39;,
-       &#39;Notorious B.I.G.&#39;, &#39;O-Zone&#39;, &#39;O.A.R.&#39;, &#39;Oasis&#39;,
-       &#39;Ocean Colour Scene&#39;, &#39;Offspring&#39;, &#39;Ofra Haza&#39;, &#39;Oingo Boingo&#39;,
-       &#34;Old 97&#39;s&#34;, &#39;Oliver&#39;, &#39;Olivia Newton-John&#39;, &#39;Olly Murs&#39;, &#39;Omd&#39;,
-       &#39;One Direction&#39;, &#39;OneRepublic&#39;, &#39;Opeth&#39;, &#39;Orphaned Land&#39;,
-       &#39;Oscar Hammerstein&#39;, &#39;Otis Redding&#39;, &#39;Our Lady Peace&#39;,
-       &#39;Out Of Eden&#39;, &#39;Outkast&#39;, &#39;Overkill&#39;, &#39;Owl City&#39;, &#39;Ozzy Osbourne&#39;,
-       &#39;Passenger&#39;, &#39;Pat Benatar&#39;, &#39;Patsy Cline&#39;, &#39;Patti Smith&#39;,
-       &#39;Paul McCartney&#39;, &#39;Paul Simon&#39;, &#39;Pearl Jam&#39;, &#39;Perry Como&#39;,
-       &#39;Pet Shop Boys&#39;, &#39;Peter Cetera&#39;, &#39;Peter Gabriel&#39;, &#39;Peter Tosh&#39;,
-       &#39;Pharrell Williams&#39;, &#39;Phil Collins&#39;, &#39;Phineas And Ferb&#39;, &#39;Phish&#39;,
-       &#39;Pink Floyd&#39;, &#39;Pitbull&#39;, &#39;Planetshakers&#39;, &#39;P!nk&#39;, &#39;Pogues&#39;,
-       &#39;Point Of Grace&#39;, &#39;Poison&#39;, &#39;Pretenders&#39;, &#39;Primus&#39;, &#39;Prince&#39;,
-       &#39;Proclaimers&#39;, &#39;Procol Harum&#39;, &#39;Puff Daddy&#39;, &#39;Q-Tip&#39;, &#39;Qntal&#39;,
-       &#39;Quarashi&#39;, &#39;Quarterflash&#39;, &#39;Quasi&#39;, &#39;Queen&#39;, &#39;Queen Adreena&#39;,
-       &#39;Queen Latifah&#39;, &#39;Queens Of The Stone Age&#39;, &#39;Queensryche&#39;,
-       &#39;Quicksand&#39;, &#39;Quicksilver Messenger Service&#39;, &#39;Quiet Riot&#39;,
-       &#39;Quietdrive&#39;, &#39;Quincy Jones&#39;, &#39;Quincy Punx&#39;, &#39;R. Kelly&#39;,
-       &#39;Radiohead&#39;, &#39;Raffi&#39;, &#39;Rage Against The Machine&#39;, &#39;Rainbow&#39;,
-       &#39;Rammstein&#39;, &#39;Ramones&#39;, &#39;Randy Travis&#39;, &#39;Rascal Flatts&#39;,
-       &#39;Ray Boltz&#39;, &#39;Ray Charles&#39;, &#39;Reba Mcentire&#39;,
-       &#39;Red Hot Chili Peppers&#39;, &#39;Regine Velasquez&#39;, &#39;Religious Music&#39;,
-       &#39;Rem&#39;, &#39;Reo Speedwagon&#39;, &#39;Richard Marx&#39;, &#39;Rick Astley&#39;, &#39;Rihanna&#39;,
-       &#39;Robbie Williams&#39;, &#39;Rod Stewart&#39;, &#39;Rolling Stones&#39;, &#39;Roxette&#39;,
-       &#39;Roxy Music&#39;, &#39;Roy Orbison&#39;, &#39;Rush&#39;, &#39;Sam Smith&#39;, &#39;Santana&#39;,
-       &#39;Savage Garden&#39;, &#39;Scorpions&#39;, &#39;Selah&#39;, &#39;Selena Gomez&#39;, &#39;Sia&#39;,
-       &#39;Side A&#39;, &#39;Slayer&#39;, &#39;Smiths&#39;, &#39;Snoop Dogg&#39;, &#39;Soundgarden&#39;,
-       &#39;Spandau Ballet&#39;, &#39;Squeeze&#39;, &#39;Starship&#39;, &#39;Status Quo&#39;,
-       &#39;Steely Dan&#39;, &#39;Steve Miller Band&#39;, &#39;Stevie Ray Vaughan&#39;,
-       &#39;Stevie Wonder&#39;, &#39;Sting&#39;, &#39;Stone Roses&#39;, &#39;Stone Temple Pilots&#39;,
-       &#39;Styx&#39;, &#39;Sublime&#39;, &#39;Supertramp&#39;, &#39;System Of A Down&#39;,
-       &#39;Talking Heads&#39;, &#39;Taylor Swift&#39;, &#39;Tears For Fears&#39;,
-       &#39;The Temptations&#39;, &#39;Ten Years After&#39;, &#39;The Broadways&#39;,
-       &#39;The Script&#39;, &#39;The Weeknd&#39;, &#39;Thin Lizzy&#39;, &#39;Tiffany&#39;, &#39;Tim Buckley&#39;,
-       &#39;Tim McGraw&#39;, &#39;Tina Turner&#39;, &#39;Tom Jones&#39;, &#39;Tom Lehrer&#39;,
-       &#39;Tom T. Hall&#39;, &#39;Tom Waits&#39;, &#39;Tool&#39;, &#39;Tori Amos&#39;, &#39;Toto&#39;,
-       &#39;Townes Van Zandt&#39;, &#39;Tracy Chapman&#39;, &#39;Tragically Hip&#39;, &#39;Train&#39;,
-       &#39;Travis&#39;, &#39;Twenty One Pilots&#39;, &#39;U. D. O.&#39;, &#39;U-Kiss&#39;, &#39;U2&#39;, &#39;UB40&#39;,
-       &#39;Ufo&#39;, &#39;Ugly Kid Joe&#39;, &#34;Ultramagnetic Mc&#39;s&#34;, &#39;Ultravox&#39;,
-       &#39;Uncle Kracker&#39;, &#39;Uncle Tupelo&#39;, &#39;Underoath&#39;, &#39;Underworld&#39;,
-       &#39;Unearth&#39;, &#39;Ungu&#39;, &#39;Unkle&#39;, &#39;Unknown&#39;, &#39;Unseen&#39;, &#39;Unwritten Law&#39;,
-       &#39;Uriah Heep&#39;, &#39;Used&#39;, &#39;Usher&#39;, &#39;Utada Hikaru&#39;, &#39;Utopia&#39;,
-       &#39;Van Halen&#39;, &#39;Van Morrison&#39;, &#39;Vanessa Williams&#39;, &#39;Vangelis&#39;,
-       &#39;Vanilla Ice&#39;, &#39;Velvet Underground&#39;, &#39;Vengaboys&#39;, &#39;Venom&#39;,
-       &#39;Vera Lynn&#39;, &#39;Vertical Horizon&#39;, &#39;Veruca Salt&#39;, &#39;Verve&#39;,
-       &#39;Vince Gill&#39;, &#39;Violent Femmes&#39;, &#39;Virgin Steele&#39;, &#39;Vonda Shepard&#39;,
-       &#39;Vybz Kartel&#39;, &#39;Walk The Moon&#39;, &#39;Wanda Jackson&#39;, &#39;Wang Chung&#39;,
-       &#39;Warren Zevon&#39;, &#39;W.A.S.P.&#39;, &#39;Waterboys&#39;, &#39;Waylon Jennings&#39;, &#39;Ween&#39;,
-       &#39;Weezer&#39;, &#39;Weird Al Yankovic&#39;, &#39;Westlife&#39;, &#39;Wet Wet Wet&#39;, &#39;Wham!&#39;,
-       &#39;Whiskeytown&#39;, &#39;The White Stripes&#39;, &#39;Whitesnake&#39;,
-       &#39;Whitney Houston&#39;, &#39;Who&#39;, &#39;Widespread Panic&#39;, &#39;Will Smith&#39;,
-       &#39;Willie Nelson&#39;, &#39;Wilson Phillips&#39;, &#39;Wilson Pickett&#39;,
-       &#39;Wishbone Ash&#39;, &#39;Within Temptation&#39;, &#39;Wiz Khalifa&#39;, &#39;Wu-Tang Clan&#39;,
-       &#39;Wyclef Jean&#39;, &#39;X&#39;, &#39;X Japan&#39;, &#39;X-Raided&#39;, &#39;X-Ray Spex&#39;, &#39;X-Treme&#39;,
-       &#39;Xandria&#39;, &#39;Xavier Naidoo&#39;, &#39;Xavier Rudd&#39;, &#39;Xentrix&#39;, &#39;Xiu Xiu&#39;,
-       &#39;Xscape&#39;, &#39;XTC&#39;, &#39;Xzibit&#39;, &#39;Yazoo&#39;, &#39;Yeah Yeah Yeahs&#39;, &#39;Yelawolf&#39;,
-       &#39;Yello&#39;, &#39;Yellowcard&#39;, &#39;Yeng Constantino&#39;, &#39;Yes&#39;, &#39;YG&#39;,
-       &#39;Ying Yang Twins&#39;, &#39;Yngwie Malmsteen&#39;, &#39;Yo Gotti&#39;, &#39;Yo La Tengo&#39;,
-       &#39;Yoko Ono&#39;, &#39;Yolanda Adams&#39;, &#39;Yonder Mountain String Band&#39;,
-       &#39;You Am I&#39;, &#39;Young Buck&#39;, &#39;Young Dro&#39;, &#39;Young Jeezy&#39;,
-       &#39;Youngbloodz&#39;, &#39;Youth Of Today&#39;, &#39;Yukmouth&#39;, &#39;Yung Joc&#39;,
-       &#39;Yusuf Islam&#39;, &#39;Z-Ro&#39;, &#39;Zac Brown Band&#39;, &#39;Zakk Wylde&#39;, &#39;Zao&#39;,
-       &#39;Zayn Malik&#39;, &#39;Zebra&#39;, &#39;Zebrahead&#39;, &#39;Zed&#39;, &#39;Zero 7&#39;, &#39;Zeromancer&#39;,
-       &#39;Ziggy Marley&#39;, &#39;Zoe&#39;, &#39;Zoegirl&#39;, &#39;Zornik&#39;, &#39;Zox&#39;, &#39;Zucchero&#39;,
-       &#39;Zwan&#39;, &#39;ZZ Top&#39;, &#39;Joseph And The Amazing Technicolor Dreamcoat&#39;,
-       &#39;Soundtracks&#39;, &#39;Van Der Graaf Generator&#39;, &#39;Various Artists&#39;,
-       &#39;Zazie&#39;], dtype=object)</pre>
+<pre>643</pre>
 </div>
 
 </div>
@@ -13421,6 +13266,25 @@ padding: 5em 5em 0.5em 0.5em
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Rappers 
+
+ [&#39;Drake&#39;, &#39;Eminem&#39;, &#39;Fabolous&#39;, &#39;Fatboy Slim&#39;, &#39;Flo-Rida&#39;, &#39;Gucci Mane&#39;, &#39;Ice Cube&#39;, &#39;J Cole&#39;, &#39;Kanye West&#39;, &#39;Lil Wayne&#39;, &#39;LL Cool J&#39;, &#39;Mc Hammer&#39;, &#39;Migos&#39;, &#39;Nicki Minaj&#39;, &#39;Notorious B.I.G.&#39;, &#39;Puff Daddy&#39;, &#39;Q-Tip&#39;, &#39;Snoop Dogg&#39;, &#39;The Weeknd&#39;, &#39;Will Smith&#39;, &#39;Wiz Khalifa&#39;, &#39;Wu-Tang Clan&#39;, &#39;Yelawolf&#39;, &#39;Ying Yang Twins&#39;, &#39;Yo Gotti&#39;, &#39;Young Buck&#39;, &#39;Young Dro&#39;, &#39;Young Jeezy&#39;, &#39;Youngbloodz&#39;, &#39;Yung Joc&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
@@ -13486,16 +13350,16 @@ padding: 5em 5em 0.5em 0.5em
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>&#34;[Verse 1]
-Boomin&#39; out in South Gwinnett like Lou Will
-6 man like Lou Will, 2 girls and they get along like I&#39;m...
-Like I&#39;m Lou Will, I just got the new deal
-I am in the Matrix and I just took the blue pill
-No ho shit, no fuckin&#39; ho shit, just save that for your shit
-I don&#39;t need no fuckin&#39; body, I run my own shit
-Like Soulja, I thought I told yah, you didn&#39;t listen
-Fieri, I&#39;m in the kitchen, I&#39;m a magician
-I&#39;m on it, I&#39;m like Macgyver, I&#39;m Michael Meyers
+<pre>&#34;[Verse 1]  
+Boomin&#39; out in South Gwinnett like Lou Will  
+6 man like Lou Will, 2 girls and they get along like I&#39;m...  
+Like I&#39;m Lou Will, I just got the new deal  
+I am in the Matrix and I just took the blue pill  
+No ho shit, no fuckin&#39; ho shit, just save that for your shit  
+I don&#39;t need no fuckin&#39; body, I run my own shit  
+Like Soulja, I thought I told yah, you didn&#39;t listen  
+Fieri, I&#39;m in the kitchen, I&#39;m a magician  
+I&#39;m on it, I&#39;m like Macgyver, I&#39;m Michael Meyers  
 I kill careers and c
 </pre>
 </div>
@@ -13659,36 +13523,36 @@ I kill careers and c
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>n the low
-I still been plottin&#39; on the low
-Schemin&#39; on the low
-The furthest thing from perfect
-Like everyone I know
-
-I just been drinkin&#39; on the low
-Mobbin&#39; on the low
-Fuckin&#39; on the low
-Smokin&#39; on the low
-I just been plottin&#39; on the low
-Schemin&#39; on the low
-The furthest thing from perfect
-Like everyone I know
-
-Drinkin&#39;, smokin&#39;, fuckin&#39;, plottin&#39;
-Schemin&#39;, plottin&#39;, schemin&#39;, gettin&#39; money
-Drinkin&#39;, fuckin&#39;, smokin&#39;, plottin&#39;, schemin&#39;
-Plottin&#39;, schemin&#39;, getting money
-
-This the life for me
-My mama told me this was right for me
-I got em worried, like make sure you save a slice for me
-I should have Spoons, serve you up with a fork and knife for me
-Your actions make us doubt you
-Your lack of effort got me rapping different
-This the shit I wanna go out to
-Play this shit at my funeral if they catch me slippin&#39;
-Naked women swimming that&#39;s just how I&#39;m living
-Donate a million to some children, that&#39;s just how I&#39;m feeling
+<pre>n the low  
+I still been plottin&#39; on the low  
+Schemin&#39; on the low  
+The furthest thing from perfect  
+Like everyone I know  
+  
+I just been drinkin&#39; on the low  
+Mobbin&#39; on the low  
+Fuckin&#39; on the low  
+Smokin&#39; on the low  
+I just been plottin&#39; on the low  
+Schemin&#39; on the low  
+The furthest thing from perfect  
+Like everyone I know  
+  
+Drinkin&#39;, smokin&#39;, fuckin&#39;, plottin&#39;  
+Schemin&#39;, plottin&#39;, schemin&#39;, gettin&#39; money  
+Drinkin&#39;, fuckin&#39;, smokin&#39;, plottin&#39;, schemin&#39;  
+Plottin&#39;, schemin&#39;, getting money  
+  
+This the life for me  
+My mama told me this was right for me  
+I got em worried, like make sure you save a slice for me  
+I should have Spoons, serve you up with a fork and knife for me  
+Your actions make us doubt you  
+Your lack of effort got me rapping different  
+This the shit I wanna go out to  
+Play this shit at my funeral if they catch me slippin&#39;  
+Naked women swimming that&#39;s just how I&#39;m living  
+Donate a million to some children, that&#39;s just how I&#39;m feeling  
 A nigga fil
 </pre>
 </div>
@@ -13787,13 +13651,13 @@ A nigga fil
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Model: &#34;sequential&#34;
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #
+Layer (type)                 Output Shape              Param #   
 =================================================================
-embedding (Embedding)        (128, None, 64)           4864
+embedding (Embedding)        (128, None, 64)           4864      
 _________________________________________________________________
-gru (GRU)                    (128, None, 1024)         3348480
+gru (GRU)                    (128, None, 1024)         3348480   
 _________________________________________________________________
-dense (Dense)                (128, None, 76)           77900
+dense (Dense)                (128, None, 76)           77900     
 =================================================================
 Total params: 3,431,244
 Trainable params: 3,431,244
@@ -13830,13 +13694,13 @@ _________________________________________________________________
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Model: &#34;sequential_1&#34;
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #
+Layer (type)                 Output Shape              Param #   
 =================================================================
-embedding_1 (Embedding)      (1, None, 64)             4864
+embedding_1 (Embedding)      (1, None, 64)             4864      
 _________________________________________________________________
-gru_1 (GRU)                  (1, None, 1024)           3348480
+gru_1 (GRU)                  (1, None, 1024)           3348480   
 _________________________________________________________________
-dense_1 (Dense)              (1, None, 76)             77900
+dense_1 (Dense)              (1, None, 76)             77900     
 =================================================================
 Total params: 3,431,244
 Trainable params: 3,431,244
@@ -13878,13 +13742,13 @@ _________________________________________________________________
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Model: &#34;sequential_10&#34;
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #
+Layer (type)                 Output Shape              Param #   
 =================================================================
-embedding_10 (Embedding)     (1, None, 64)             4864
+embedding_10 (Embedding)     (1, None, 64)             4864      
 _________________________________________________________________
-gru_10 (GRU)                 (1, None, 1024)           3348480
+gru_10 (GRU)                 (1, None, 1024)           3348480   
 _________________________________________________________________
-dense_10 (Dense)             (1, None, 76)             77900
+dense_10 (Dense)             (1, None, 76)             77900     
 =================================================================
 Total params: 3,431,244
 Trainable params: 3,431,244
@@ -13908,16 +13772,16 @@ _________________________________________________________________
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>The start seed is &#39;yo &#39;
 
-yo Good but why shoulda say hah hah!
-(Don&#39;t get it cause there&#39;s right)
-We gettin&#39; chedical endy or the 40&#39;s
-The Loudest place that we talkin&#39; to myself
-I feel I&#39;m bounce you know my money
-Muthafuckas went to H4M
-King color groupies on the pool conversation
-We back to the bomb, buddy body and
-Back like a splinter, want you to see if he continued the kid
-Hard to take the shit is where you&#39;re doing too much, but it best white,
+yo Good but why shoulda say hah hah!  
+(Don&#39;t get it cause there&#39;s right)  
+We gettin&#39; chedical endy or the 40&#39;s  
+The Loudest place that we talkin&#39; to myself  
+I feel I&#39;m bounce you know my money  
+Muthafuckas went to H4M  
+King color groupies on the pool conversation  
+We back to the bomb, buddy body and  
+Back like a splinter, want you to see if he continued the kid  
+Hard to take the shit is where you&#39;re doing too much, but it best white,  
 Soon tell the pretty get tolike stealing my face again
 
 
@@ -13926,25 +13790,25 @@ Soon tell the pretty get tolike stealing my face again
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;shawty&#39;
 
-shawty
-Caugar to hit me out like rain
-Bitches he act like it&#39;s slow and ballers
-That&#39;s why I be the pain just to get a good for me je
-Everybody tryin&#39; to hear the same ring the alley
-Shit go for forgiveness, so clean up hard as hell
-Watchinaters in the club that&#39;s my coantry
-And while the weed cold in a bow
-U-Aw I ran hardcore his drink fighter
-Sux my isl&#39;s bout six of her languap
-Way I think I need to be right
-Now Cole World True-work gotta buck wild
-Somebody help me, a baby
+shawty  
+Caugar to hit me out like rain  
+Bitches he act like it&#39;s slow and ballers  
+That&#39;s why I be the pain just to get a good for me je  
+Everybody tryin&#39; to hear the same ring the alley  
+Shit go for forgiveness, so clean up hard as hell  
+Watchinaters in the club that&#39;s my coantry  
+And while the weed cold in a bow  
+U-Aw I ran hardcore his drink fighter  
+Sux my isl&#39;s bout six of her languap  
+Way I think I need to be right  
+Now Cole World True-work gotta buck wild  
+Somebody help me, a baby  
 
 
 
@@ -13952,21 +13816,21 @@ Somebody help me, a baby
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;hommie&#39;
 
-hommies decision carass your spot (Gucci)
-
-Not but the weed in my facing wit me
-Codeine salt left that&#39;s mark like the trouble raised this nigga feelin&#39; like a Capitor There we pack and breathing, let&#39;s take it
-Gettin&#39; my car worst first step, I ain&#39;t black lean
-A freak&#39;ll bad baby momma brother, a tale rate
-Two record but my shit is with hustlers and shituff
-He get suffend the days of my friend
-Look at the store for me cause he&#39;ll be still drinkin&#39; on me
+hommies decision carass your spot (Gucci)  
+  
+Not but the weed in my facing wit me  
+Codeine salt left that&#39;s mark like the trouble raised this nigga feelin&#39; like a Capitor There we pack and breathing, let&#39;s take it  
+Gettin&#39; my car worst first step, I ain&#39;t black lean  
+A freak&#39;ll bad baby momma brother, a tale rate  
+Two record but my shit is with hustlers and shituff  
+He get suffend the days of my friend  
+Look at the store for me cause he&#39;ll be still drinkin&#39; on me  
 Don&#39;t wanna be the only ones
 
 
@@ -13975,26 +13839,26 @@ Don&#39;t wanna be the only ones
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;rachet&#39;
 
-rachet dollar buddy
-Drippin&#39; bout&#39;s good to meet Kiz K for shobin with our lives
-I do it for the gyeat
-It&#39;s probably wouldn&#39;t be in there
-Looking for the ambulance and money friends
-Long knows you wrote you with a slug
-I think i&#39;ll bring your spot
-Say that the O just think if I know is you might as well retrey me
-
-Come on, come on, come on, come on
-Shaolin hall, like that
+rachet dollar buddy  
+Drippin&#39; bout&#39;s good to meet Kiz K for shobin with our lives  
+I do it for the gyeat  
+It&#39;s probably wouldn&#39;t be in there  
+Looking for the ambulance and money friends  
+Long knows you wrote you with a slug  
+I think i&#39;ll bring your spot  
+Say that the O just think if I know is you might as well retrey me  
+  
+Come on, come on, come on, come on  
+Shaolin hall, like that  
 It&#39;s around the woods I have to
-
-Buk-beastring, vook over in your heart no reason
+  
+Buk-beastring, vook over in your heart no reason  
 No more like a nigga
 pl
 
@@ -14004,7 +13868,7 @@ pl
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
@@ -14033,13 +13897,13 @@ pl
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Model: &#34;sequential_11&#34;
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #
+Layer (type)                 Output Shape              Param #   
 =================================================================
-embedding_11 (Embedding)     (1, None, 50)             3800
+embedding_11 (Embedding)     (1, None, 50)             3800      
 _________________________________________________________________
-gru_11 (GRU)                 (1, None, 1024)           3305472
+gru_11 (GRU)                 (1, None, 1024)           3305472   
 _________________________________________________________________
-dense_11 (Dense)             (1, None, 76)             77900
+dense_11 (Dense)             (1, None, 76)             77900     
 =================================================================
 Total params: 3,387,172
 Trainable params: 3,387,172
@@ -14069,15 +13933,15 @@ _________________________________________________________________
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>The start seed is &#39;yo &#39;
 
-yo people as to four I&#39;ll be my friend a bad, my money getcha
-I said, I&#39;m gone off that pound of dank (that sticky, that icky)
-Richand trying to plenty to be the dirty Charast (se if you wanna get right
-Let&#39;s get right
-Let&#39;s get right to A bitch she step
-Now how the fuck would go for me
-Even though ya rut thout five to my legs
-What&#39;s your sugher fat lil shit that you see it?s all the fingers?
-Could be back for the future [?] Plue Dogg I just outld A-N, D, Robay Rover
+yo people as to four I&#39;ll be my friend a bad, my money getcha  
+I said, I&#39;m gone off that pound of dank (that sticky, that icky) 
+Richand trying to plenty to be the dirty Charast (se if you wanna get right  
+Let&#39;s get right  
+Let&#39;s get right to A bitch she step  
+Now how the fuck would go for me  
+Even though ya rut thout five to my legs  
+What&#39;s your sugher fat lil shit that you see it?s all the fingers?  
+Could be back for the future [?] Plue Dogg I just outld A-N, D, Robay Rover  
 Bustin&#39; of the
 
 
@@ -14086,23 +13950,23 @@ Bustin&#39; of the
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;shawty&#39;
 
-shawty got a 9Uhow
-I see my only one was gone, thou shoo shook up
-And all you need is shady thin swent, show her out
-
-Got plenty for a while far  for none shit
-She say she sweet budging they had a double really cared
-Mcs Deville,
-Cause that you&#39;ve always been a thug like in side, shootin bottles off throwed a Jazz Cash Money&#39;s cub
-Shats worth a mollye bag and you got crazy dope nigga, put it back to the blocks happened by a rapper
-
-To the sky to his n&#39;all so not in the cover of my
+shawty got a 9Uhow  
+I see my only one was gone, thou shoo shook up  
+And all you need is shady thin swent, show her out  
+  
+Got plenty for a while far  for none shit  
+She say she sweet budging they had a double really cared  
+Mcs Deville,  
+Cause that you&#39;ve always been a thug like in side, shootin bottles off throwed a Jazz Cash Money&#39;s cub  
+Shats worth a mollye bag and you got crazy dope nigga, put it back to the blocks happened by a rapper  
+  
+To the sky to his n&#39;all so not in the cover of my 
 
 
 
@@ -14110,29 +13974,29 @@ To the sky to his n&#39;all so not in the cover of my
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;hommie&#39;
 
-hommies flowed
-Look good with these hown&#39; live role money
-Don&#39;t take hella
-I want to be
-The only twin you was meant
-I&#39;m in my veins, knowncathing like real
+hommies flowed  
+Look good with these hown&#39; live role money  
+Don&#39;t take hella  
+I want to be  
+The only twin you was meant  
+I&#39;m in my veins, knowncathing like real  
 Talk baby, see that they stay in the fucking life
 
 &#34;
-&#34;I had to ride
-for all dem a gwaan
-That&#39;s a blew if you just know where we don&#39;t want me to love me though
-Get read, for twenty for life
-Oh yeah Smooth control
-If you (damn) to the dance moiline]
-Let&#39;s put the act like a solution
-Man style while you got it
+&#34;I had to ride  
+for all dem a gwaan  
+That&#39;s a blew if you just know where we don&#39;t want me to love me though  
+Get read, for twenty for life  
+Oh yeah Smooth control  
+If you (damn) to the dance moiline]  
+Let&#39;s put the act like a solution  
+Man style while you got it  
 And everybod
 
 
@@ -14141,28 +14005,28 @@ And everybod
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;rachet&#39;
 
-rachet
-(Haha I live guide you niggas is no college in this club jumps
-Trying to get at the pilot
-Game up an UPtir to play me crazy dollars do
-The sh-t it, you jump right up to that money name (halk)
-Go ahead, ta the dun&#39; you
-Show him wols with the wife
-The way faster and then I made it the aftern-thy
-The hustle man with no you icollabogng
-So what can your mouth
+rachet  
+(Haha I live guide you niggas is no college in this club jumps  
+Trying to get at the pilot  
+Game up an UPtir to play me crazy dollars do  
+The sh-t it, you jump right up to that money name (halk)  
+Go ahead, ta the dun&#39; you  
+Show him wols with the wife  
+The way faster and then I made it the aftern-thy  
+The hustle man with no you icollabogng  
+So what can your mouth  
 It ain&#39;t abuition yet you got me being us.Butiness
 &#34;&#34;Oh baby, for heavens sake&#34;&#34;
 
 &#34;
-&#34;[Intro]
-Yep yep, I drimm girl
+&#34;[Intro]  
+Yep yep, I drimm girl  
 Cau
 
 
@@ -14171,7 +14035,7 @@ Cau
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
@@ -14200,13 +14064,13 @@ Cau
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Model: &#34;sequential_9&#34;
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #
+Layer (type)                 Output Shape              Param #   
 =================================================================
-embedding_9 (Embedding)      (1, None, 50)             3800
+embedding_9 (Embedding)      (1, None, 50)             3800      
 _________________________________________________________________
-gru_9 (GRU)                  (1, None, 2048)           12902400
+gru_9 (GRU)                  (1, None, 2048)           12902400  
 _________________________________________________________________
-dense_9 (Dense)              (1, None, 76)             155724
+dense_9 (Dense)              (1, None, 76)             155724    
 =================================================================
 Total params: 13,061,924
 Trainable params: 13,061,924
@@ -14230,28 +14094,28 @@ _________________________________________________________________
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>The start seed is &#39;yo &#39;
 
-yo
-Ain&#39;t no way on her ass roader than that part from hom and oh party again ax we just hold accord!
-Ya&#39;ll wanna be argelard your dudest eat
-&#39;cause she mean not, murda-be ness (All my  is? You d
-Fuck them
-Get lifting
-I don&#39;t speak to me
-What you can&#39;t skept feel
-Cause your lyin&#39; leave
-Come with my mental ou know it&#39;s a nine or the old my night
-Rock-and who that little libbatch the Couse and this sumier contact
-And I don&#39;t wanna fin&#39;
-I want that I be sick
-But the same one of years, we felt russy literal shit, pull it up, rollin&#39; it up
-
-Your nasty got a nigga
-But but I was roight to hold my stale
-You know what your striend and com
-Turn in Snips with thave,
-I said, I&#39;m sincy
-No yatrilocause to drop tough with fat five hard
-Felons it was youngin&#39;
+yo  
+Ain&#39;t no way on her ass roader than that part from hom and oh party again ax we just hold accord!  
+Ya&#39;ll wanna be argelard your dudest eat  
+&#39;cause she mean not, murda-be ness (All my  is? You d 
+Fuck them  
+Get lifting  
+I don&#39;t speak to me  
+What you can&#39;t skept feel  
+Cause your lyin&#39; leave  
+Come with my mental ou know it&#39;s a nine or the old my night  
+Rock-and who that little libbatch the Couse and this sumier contact  
+And I don&#39;t wanna fin&#39;  
+I want that I be sick  
+But the same one of years, we felt russy literal shit, pull it up, rollin&#39; it up  
+  
+Your nasty got a nigga  
+But but I was roight to hold my stale  
+You know what your striend and com  
+Turn in Snips with thave,  
+I said, I&#39;m sincy  
+No yatrilocause to drop tough with fat five hard  
+Felons it was youngin&#39;  
 You too
 
 
@@ -14260,36 +14124,36 @@ You too
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;shawty&#39;
 
-shawty, stop left, looking all rem brugged, know my feels get talk to the AKL-Son (cham)
-My paring other money the front on a real man
-A stop on the Rap
-Pastor Take anybody all takes, and get scared off time &#39;em all not that I&#39;m not they want it
-Sneak like that&#39;s when I did it
-Feel game&#34;&#34;
-
-Survive and she won&#39;t shop
-Uh baby you show a pacable
-Come and all change
-Don&#39;t know what to deal with swials
-you, and move tonight
-Let me beat a kiss
-I&#39;m a burlaund
-We concerned that they have one all the way to Get her ton&#39;t shock
-When I wake up
-Baby, damn I&#39;m finishat they mind
-And if you ain&#39;t say now
-So slow move his memory
-the coke up some paper (Hatha!)
-Frout night like you ready to miss ya
-I still the harder got my green
-Young Dro
-Shett.... ggas
+shawty, stop left, looking all rem brugged, know my feels get talk to the AKL-Son (cham)  
+My paring other money the front on a real man  
+A stop on the Rap  
+Pastor Take anybody all takes, and get scared off time &#39;em all not that I&#39;m not they want it  
+Sneak like that&#39;s when I did it  
+Feel game&#34;&#34;  
+  
+Survive and she won&#39;t shop  
+Uh baby you show a pacable  
+Come and all change  
+Don&#39;t know what to deal with swials  
+you, and move tonight  
+Let me beat a kiss  
+I&#39;m a burlaund  
+We concerned that they have one all the way to Get her ton&#39;t shock  
+When I wake up  
+Baby, damn I&#39;m finishat they mind  
+And if you ain&#39;t say now  
+So slow move his memory  
+the coke up some paper (Hatha!)  
+Frout night like you ready to miss ya  
+I still the harder got my green  
+Young Dro  
+Shett.... ggas  
 Getting h
 
 
@@ -14298,39 +14162,39 @@ Getting h
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;hommie&#39;
 
-hommie on, broaght at the people
-Ly irrealin&#39;
-
-And a 100 oc cherts feel it don&#39;t
-I might put ut niggas gun freakin&#39; down Gill Gpittingbors at the buttas in it
-Wait from the mornin&#39;
-Gotta  skepion, I won&#39;t nece be a bitch
-But I&#39;m so iced out
-So don&#39;t no sitular...
-See it&#39;s stop t I got look
-Col its then I put that pussy one whole passine
-Trying to get along
-And my mother so f the dope boy!
-(A-Yo-G) il up the radio?
-Oh while i told my, &#34;&#34;Fick way before miss is talkin around you?
-You can see me all take trip, so I can up ychomus to your name
-
-[Ohile the prewist
-Her love the cash, yeah we talkin to the private sknow
-Don&#39;t about to make me growin
-Man, from just p with a sack
-
-[Chorus]
-
-I niggaz is socibe
-Bitch some shit
-You know, th, I&#39;m lying til
+hommie on, broaght at the people  
+Ly irrealin&#39;  
+  
+And a 100 oc cherts feel it don&#39;t  
+I might put ut niggas gun freakin&#39; down Gill Gpittingbors at the buttas in it  
+Wait from the mornin&#39;  
+Gotta  skepion, I won&#39;t nece be a bitch  
+But I&#39;m so iced out  
+So don&#39;t no sitular...  
+See it&#39;s stop t I got look  
+Col its then I put that pussy one whole passine  
+Trying to get along  
+And my mother so f the dope boy!  
+(A-Yo-G) il up the radio?  
+Oh while i told my, &#34;&#34;Fick way before miss is talkin around you?  
+You can see me all take trip, so I can up ychomus to your name  
+  
+[Ohile the prewist  
+Her love the cash, yeah we talkin to the private sknow  
+Don&#39;t about to make me growin  
+Man, from just p with a sack  
+  
+[Chorus]  
+  
+I niggaz is socibe  
+Bitch some shit  
+You know, th, I&#39;m lying til 
 
 
 
@@ -14338,26 +14202,26 @@ You know, th, I&#39;m lying til
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
 The start seed is &#39;rachet&#39;
 
-rachet
-Or the club told me spendin tind with a baibfir bitch, now pack tha fool
-See, we the homies lonely wribble
-And what I&#39;m sayin&#39;, then hunt
-Now te run where we do the back
-Ouh the way I proboby Poldin&#39;t lime story lookin for what you goin up all goon
-Niggas is cakin to walk you, nowe g to be in lust to my tendin&#39;
-Business is showin up out the matchin&#39; and still roped in them
-turn to niggaz do trippin&#39; like a sunshalet in them dumb niggas
-Say &#34;&#34;No&#34;&#34;
-Stip tight hurted with &#39;em
-I think ya fuck wit &#39;em hopts &#39;em with me, like later
-But its bareah doing whed even our cause you probably be care get to ite
-Then my baby fo&#39; gives a tube short, gotta gotta ship
+rachet  
+Or the club told me spendin tind with a baibfir bitch, now pack tha fool  
+See, we the homies lonely wribble  
+And what I&#39;m sayin&#39;, then hunt  
+Now te run where we do the back  
+Ouh the way I proboby Poldin&#39;t lime story lookin for what you goin up all goon  
+Niggas is cakin to walk you, nowe g to be in lust to my tendin&#39;  
+Business is showin up out the matchin&#39; and still roped in them  
+turn to niggaz do trippin&#39; like a sunshalet in them dumb niggas  
+Say &#34;&#34;No&#34;&#34;  
+Stip tight hurted with &#39;em  
+I think ya fuck wit &#39;em hopts &#39;em with me, like later  
+But its bareah doing whed even our cause you probably be care get to ite  
+Then my baby fo&#39; gives a tube short, gotta gotta ship  
 She be tryin&#39; to hol guys list cause in the mix up hach like &#34;&#34;Hey-hey yo, Gosta baby girl, I&#39;m gon&#39; betty you l
 
 
@@ -14366,7 +14230,7 @@ She be tryin&#39; to hol guys list cause in the mix up hach like &#34;&#34;Hey-h
     ################################################
     ################################################
     ################################################
-
+    
 
 
 
@@ -14385,7 +14249,7 @@ She be tryin&#39; to hol guys list cause in the mix up hach like &#34;&#34;Hey-h
   </div>
 </body>
 
-
+ 
 
 
 </html>
